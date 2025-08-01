@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="atvvEYHtIZApIXfmY2wfl81J4EpIRBls13iQF1crs6A" />
+    <title>Chiara Semenzin</title>
+    <style>
+        body {
+            background-color: #2c2d36; /* darker, but not black */
+            color: #e1e1e1;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #fff;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        .profile img {
+            width: 200px;
+            border-radius: 10px;
+            margin-right: 30px;
+        }
+        .bio {
+            max-width: 600px;
+        }
+        .section {
+            max-width: 800px;
+            margin: 40px auto;
+        }
+        .news ul, .publications ul, .education ul {
+            list-style: none;
+            padding: 0;
+        }
+        .news li::before {
+            content: "";
+        }
+        .publications li {
+            margin-bottom: 10px;
+        }
+        /* NEW: News box styling */
+        .news-box {
+            background-color: #343541; /* playground color for the news window */
+            padding: 15px;
+            height: 200px;
+            overflow-y: scroll;
+            font-family: "Courier New", Courier, monospace;
+            border-radius: 8px;
+            border: 1px solid #555;
+        }
+
+        /* NEW: More space between education items */
+        .education li {
+            margin-bottom: 20px;
+        }
+        .social {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+        .social-icons img.icon {
+            width: 40px;
+            height: 40px;
+            filter: invert(100%); /* Makes icons white */
+            transition: transform 0.3s;
+        }
+        .social-icons img.icon:hover {
+            transform: scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Chiara Semenzin</h1>
+
+<div class="profile">
+    <img src="photo.png" alt="Your Photo">
+    <div class="bio">
+        <p>I am a linguist and cognitive scientist. My research focuses on how AI can help us understand non-human communication.</p>
+        <p>After earning my degree in Linguistics (MA) and Cognitive Science (MSc) from the University of Edinburgh, I am conducting interdisciplinary research by exploring the intersection of linguistics, informatics, and biology.</p>
+        <p>Currently, I am a PhD researcher at ENS Paris, where I study dolphin communication, using tools from AI and maths to decode patterns in their vocalizations.
+        Beyond my research, I am committed to science outreach and always fostering connections between disciplines, and people!</p>
+    </div>
+</div>
+
+<div class="section news">
+    <h2>News</h2>
+    <div class="news-box">
+        <ul>
+            <li>🎤 28/2/2025 I presented my latest work at the Embedded Days Conference in Paris</li>
+            <li>🔬 14/10/2024 Shared my work on dolphins with the general public at the Fête de la Science in Paris!</li>
+            <li>🎓 25/10/2024 Held a guest lecture at University of Siena about Generative AI and why it can make our life better</li>
+            <li>🐬 Presented my work on dolphin communication at the Non-Human Communication Workshop III by CETI in Berkeley</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section publications">
+    <h2>Selected Publications</h2>
+    <ul>
+        <li>Mustun, F.*, Semenzin, C.*, Rance, D., Marachlian, E., Guillerm, Z., Mancini, A., Bouaziz, I., Fleck, E., Shashar, N., de Polavieja, G., Sumbre G. (2024) Whistle variability and social acoustic interactions in bottlenose dolphins. [BioArxiv full text] [in review]</li>
+        <li>Semenzin, C., Hamrick, L., Seidl, A., Kelleher, B., and Cristia, A. (2021) Towards large-scale data annotation of audio from wearables: validating zooniverse annotations of infant vocalization types. In IEEE Spoken Language Technology Workshop (SLT), IEEE, pp. 1079–1085.</li>
+        <li>Semenzin, C., Hamrick, L., Seidl, A., Kelleher, B.L., Cristia, A. (2021) Describing vocalizations in young children: A big data approach through citizen science annotation, Journal of Speech, Language, and Hearing Research.</li>
+    </ul>
+</div>
+
+<div class="section education">
+    <h2>Education</h2>
+    <ul>
+        <li><strong>2021-Now</strong><br>Ecole Normale Supérieure – Paris, France<br>Marie Sklodowska-Curie PhD Fellow</li>
+        <li><strong>2017-2019</strong><br>The University of Edinburgh – Edinburgh, United Kingdom<br>MSc in Informatics and Cognitive Science</li>
+        <li><strong>2013-2017</strong><br>The University of Edinburgh – Edinburgh, United Kingdom<br>Master of Arts with Honours in Linguistics</li>
+    </ul>
+</div>
+
+
+<!-- Social Links with Real Icons -->
+<div class="section social">
+    <h2>Connect with me</h2>
+    <div class="social-icons">
+        <a href="https://github.com/yourgithubusername" target="_blank">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" class="icon">
+        </a>
+        <a href="https://twitter.com/yourtwitterhandle" target="_blank">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter" class="icon">
+        </a>
+        <a href="https://linkedin.com/in/yourlinkedinprofile" target="_blank">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" class="icon">
+        </a>
+        <a href="mailto:youremail@example.com">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" alt="Email" class="icon">
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
