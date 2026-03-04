@@ -59,6 +59,39 @@ h2::after {
     border-radius: 2px;
 }
 
+/* Tagline */
+.tagline {
+    text-align: center;
+    margin: -0.5rem 0 2rem;
+}
+
+.tagline-role {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+}
+
+.tagline-role a {
+    color: var(--accent-blue);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.tagline-role a:hover {
+    color: var(--accent-purple);
+}
+
+.tagline-topics {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.03em;
+    background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 /* Container */
 .container {
     max-width: 1200px;
@@ -100,6 +133,11 @@ h2::after {
 
 .bio p {
     margin-bottom: 1rem;
+}
+
+.bio a {
+    color: #8891b8;
+    text-decoration: underline;
 }
 
 /* Section Styling */
